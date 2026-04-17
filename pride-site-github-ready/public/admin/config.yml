@@ -10,8 +10,9 @@ collections:
     label: "Team"
     folder: "content/team"
     create: true
+    slug: "{{slug}}"
     fields:
-      - { name: "name", label: "Name", widget: "string" }
-      - { name: "role", label: "Role", widget: "string" }
-      - { name: "image", label: "Image", widget: "image" }
-      - { name: "description", label: "Description", widget: "text" }
+      - { label: "Name", name: "name", widget: "string" }
+      - { label: "Role", name: "role", widget: "string" }
+      - { label: "Image", name: "image", widget: "image" }
+      - { label: "Description", name: "description", widget: "text" }
